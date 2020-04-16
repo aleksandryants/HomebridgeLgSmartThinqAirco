@@ -4,6 +4,7 @@ import time
 import argparse
 import sys
 
+STATE_FILE = 'wideq_state.json'
 
 def authenticate(gateway):
     """Interactively authenticate the user via a browser to get an OAuth
